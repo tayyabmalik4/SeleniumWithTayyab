@@ -7,7 +7,7 @@ s=Service("chromedriver.exe")
 
 # path="C:\\Program Files (x86)\\chromedriver.exe"
 driver = webdriver.Chrome(service=s)
-driver.maximize_window
+driver.maximize_window()
 driver.get("https://www.amazon.com/")
 # driver.get("https://www.xiramsoft.com/")
 print(driver.title)
